@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-fg);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-sidebar: var(--sidebar);
+  --color-card: var(--card);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  
+  --radius-xl: 1rem;
+  --radius-lg: 0.75rem;
+  --radius-md: 0.5rem;
+  
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+:root {
+  --primary: #2563EB;
+  --primary-fg: #FFFFFF;
+  --secondary: #7C3AED;
+  --background: #F8FAFC;
+  --sidebar: #0F172A;
+  --card: #FFFFFF;
+  --success: #16A34A;
+  --warning: #F59E0B;
+  --danger: #DC2626;
+  --foreground: #0F172A;
+  --muted: #64748B;
+  --border: #E2E8F0;
+}
+
+.dark {
+  --primary: #3B82F6;
+  --primary-fg: #FFFFFF;
+  --secondary: #8B5CF6;
+  --background: #0F172A;
+  --sidebar: #020617;
+  --card: #1E293B;
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  --foreground: #F8FAFC;
+  --muted: #94A3B8;
+  --border: #334155;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}

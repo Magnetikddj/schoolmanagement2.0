@@ -1,0 +1,10 @@
+{
+  "description": "Enables users to design, prototype, and collaborate on UI/UX projects seamlessly, enhancing creativity and streamlining design workflows.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
